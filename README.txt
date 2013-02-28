@@ -1,21 +1,34 @@
 Welcome to the musical Harp.  This program has been tested on a computer running windows xp, however, it should run on any windows computer.  It might not work the first time however, and might require changing the source.  
 
-1) make sure you have python 2.7 installed on your computer.
+Necessary Software:
+    Python 2.7: http://www.python.org/download/releases/2.7/
 
-2) Download the arduino software available at arduino.cc to upload the Final Sensor software onto the arduino. Also check to see what comunications channel you arduino is connected to and remember it.
+    GP2D02 Library:
+        GIT:    git@github.com:jtrollinson/ArduinoGP2D02.git
+        BROWSER:https://github.com/jtrollinson/ArduinoGP2D02
+    
+    Arduino:
+        http://arduino.cc/en/Main/Software
+    
+    Pyo: (We used 0.5, but experiment. It's probably a lot better now)
+        https://code.google.com/p/pyo/downloads/list
+    
+    PySerial: (We used 2.6)
+        https://pypi.python.org/pypi/pyserial
 
-3) If you haven't already, install pyo and move the serial folder in your version of pySerial into your python library folder.
 
-5) Make sure the arduino is connected before you connect it to the computer.  
+1) If you haven't already, install pyo and move the serial folder in your version of pySerial into your python library folder.
 
-6) Open the program
+2) Make sure the arduino is connected before you connect it to the computer.  
 
-7) You can use either winsound or pyo as your source of music.  Pyo has more control, but lags slightly.  Winsound is much quicker and easy to use, but also lacks multiple note support.
+3) Open the program
 
-8) To start the instrument, press start and follow the instructions.  Always click quit where applicable instead of closing through red 'x'
+4) You can use either winsound or pyo as your source of music.  Pyo has more control, but lags slightly.  Winsound is much quicker and easy to use, but also lacks multiple note support.
 
-9) For help when using the program, click the help button
+5) To start the instrument, press start and follow the instructions.  Always click quit where applicable instead of closing through red 'x'
 
-10) To view what the sensors are returning, press Raw Range
+6) For help when using the program, click the help button
 
-11) To hear what a note will sound like, press play next to each note.
+7) To view what the sensors are returning, press Raw Range
+
+8) To hear what a note will sound like, press play next to each note.
